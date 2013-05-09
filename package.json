@@ -1,0 +1,18 @@
+{
+  "name": "node_errors_module",
+  "description": "Simple node module to standardize application error output",
+  "author": "Belly Inc.",
+  "main": "node_errors_module",
+  "version": "0.0.1",
+  "dependencies": {
+    "path": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bellycard/node_errors_module.git"
+  },
+  "license": "MIT"
+}

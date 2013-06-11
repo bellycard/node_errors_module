@@ -9,7 +9,7 @@ Add to your dependencies in package.json, with a reference to this repository
 
 ```JAVASCRIPT
 "dependencies": {
-  "node_errors_module": "git://github.com/bellycard/node_errors_module.git#v0.0.1"
+  "node_errors_module": "git://github.com/bellycard/node_errors_module.git#v0.0.2"
 }
 ```
 

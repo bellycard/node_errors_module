@@ -24,6 +24,8 @@ for code, definition of errors
       # console output
       if res.app.settings.env isnt 'test'
         console.log "ERROR #{_definition.http_status}: #{_code} - #{_definition.message}".error
+        if debug_data 
+          console.log JSON.stringify(debug_data).error
       
       output = 
         error: 

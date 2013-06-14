@@ -1,7 +1,7 @@
 path = require 'path'
 
 # parse the error definitions
-errors = require(path.join(process.cwd(), 'definitions', 'errors.json'))
+errors = require(path.resolve('definitions', 'errors.json'))
 
 ## helper for accessing messages (used in our integration tests)
 exports.outputFor = (code) ->

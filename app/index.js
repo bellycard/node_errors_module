@@ -4,7 +4,7 @@
 
   path = require('path');
 
-  errors = require(path.resolve('definitions', 'errors.json'));
+  errors = require(path.join(__dirname, '..', '..', '..', 'definitions', 'errors.json'));
 
   exports.outputFor = function(code) {
     return {

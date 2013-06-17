@@ -3,7 +3,7 @@
   "description": "Simple node module to standardize application error output",
   "author": "Belly Inc.",
   "main": "node_errors_module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {
     "path": "*"
   },

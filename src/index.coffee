@@ -3,9 +3,6 @@ path = require 'path'
 # parse the error definitions
 # errors = require(path.join('definitions', 'errors.json'))
 
-# if __dirname isnt process.cwd()
-#   process.chdir(__dirname)
-
 errors = require(path.join(__dirname, '..', '..', '..', 'definitions', 'errors.json'))
 
 ## helper for accessing messages (used in our integration tests)
